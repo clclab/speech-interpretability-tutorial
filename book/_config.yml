@@ -30,10 +30,13 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  use_page_navigation: false
   extra_footer: |
     <div>
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png"></a>
     </div>
+  extra_css:
+    - custom.css
 
 sphinx:
   config:
