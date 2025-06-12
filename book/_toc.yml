@@ -2,8 +2,12 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+root: index
+
+parts:
+  - caption: Tutorial Materials
+    chapters:
+      - file: interspeech2025/intro
+        # sections:
+        #   - file: interspeech2025/feature-importance-scoring/intro
+        #   - file: interspeech2025/representational-analyses/intro

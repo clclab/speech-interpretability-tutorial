@@ -38,7 +38,7 @@ html:
 sphinx:
   config:
     html_show_copyright: false
-    bibtex_reference_style: author_year
+    bibtex_reference_style: super
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
